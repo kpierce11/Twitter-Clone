@@ -1,11 +1,11 @@
-import { Avatar } from "@material-ui/core";
+import { Avatar } from "@mui/material";
 import {
   ChatBubbleOutline,
   FavoriteBorder,
   Publish,
   Repeat,
   VerifiedUser,
-} from "@material-ui/icons";
+} from "@mui/icons-material";
 import React from "react";
 import "./Post.css";
 
@@ -41,5 +41,4 @@ function Post({ displayName, username, verified, text, image, avatar }) {
     </div>
   );
 }
-
 export default Post;
