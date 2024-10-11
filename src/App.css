@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -7,10 +7,29 @@ body {
   --twitter-color: #50b7f5;
   --twitter-background: #e6ecf0;
 }
+
 .app {
   display: flex;
   height: 100vh;
   max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.sidebar {
+  flex: 0.25;
+  padding: 20px;
+}
+
+.feed {
+  flex: 0.5;
+  padding: 20px;
+  border-right: 1px solid var(--twitter-background);
+  border-left: 1px solid var(--twitter-background);
+}
+
+.widgets {
+  flex: 0.3;
+  padding: 20px;
+  min-width: 370px;
 }
