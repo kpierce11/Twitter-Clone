@@ -20,11 +20,11 @@ function Widgets() {
         <TwitterTweetEmbed tweetId={"1307046632517664771"} />
         <TwitterTimelineEmbed
           sourceType="profile"
-          screenName="atharvabrand"
+          screenName="kpierce11"
           options={{ height: 400 }}
         />
         <TwitterShareButton
-          url={"https://atharvadeosthale.com"}
+          url={"github.com/kpierce11"}
           options={{ text: "React Developer" }}
         /> 
       </div>
